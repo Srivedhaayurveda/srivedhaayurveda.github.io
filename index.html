@@ -40,7 +40,7 @@
   <div class="hero_area">
 
     <div class="hero_bg_box">
-      <img src="images/hero-bg.png" alt="">
+      <img src="images/hero-3.png" alt="">
     </div>
 
     <!-- header section strats -->
@@ -60,26 +60,26 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="about.html"> About <span class="sr-only">(current)</span> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="#departments">Departments</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="departments.html">Departments</a>
-              </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="doctors.html">Doctors</a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="#contactus">Contact Us</a>
               </li>
-              <form class="form-inline">
+              <!-- <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-              </form>
+              </form> -->
             </ul>
           </div>
         </nav>
@@ -98,14 +98,15 @@
                     <h1>
                       समदोषः समाग्निश्च समधातुमलक्रियः। प्रसन्नात्मेन्द्रियमनाः स्वस्थ इत्यभिधीयते ॥
                     </h1>
-                    <p>
+                    <!-- <p>
                       Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
                       aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
                       delectus repellat modi impedit sequi.
-                    </p>
+                    </p> -->
                     <div class="btn-box">
-                      <a href="" class="btn1">
-                        Read More
+
+                      <a href="" style="width: 211px;" class="btn1 text-success">
+                        <b>Book your appointment</b>
                       </a>
                     </div>
                   </div>
@@ -127,8 +128,9 @@
                       delectus repellat modi impedit sequi.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
-                        Read More
+
+                      <a href="" style="width: 211px;" class="btn1 text-success">
+                        <b>Book your appointment</b>
                       </a>
                     </div>
                   </div>
@@ -136,34 +138,11 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      We Provide Best Healthcare
-                    </h1>
-                    <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
-                      aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
-                      delectus repellat modi impedit sequi.
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
         <ol class="carousel-indicators">
           <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
           <li data-target="#customCarousel1" data-slide-to="1"></li>
-          <li data-target="#customCarousel1" data-slide-to="2"></li>
         </ol>
       </div>
 
@@ -220,7 +199,7 @@
 
   <!-- department section -->
 
-  <section class="department_section layout_padding">
+  <section id="departments" class="department_section layout_padding">
     <div class="department_container pb-4">
       <div class="container ">
         <div class="heading_container heading_center mb-4">
@@ -504,7 +483,7 @@
   <!-- end doctor section -->
 
   <!-- contact section -->
-  <section class="contact_section layout_padding">
+  <section id="contactus" class="contact_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -514,7 +493,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form_container contact-form">
-            <form action="mailto:sidrameshpatil569@gmail.com">
+            <form action="https://formsubmit.co/srivedhaayurveda@gmail.com" method="POST">
               <div class="form-row">
                 <div class="col-lg-6">
                   <div>
@@ -523,18 +502,18 @@
                 </div>
                 <div class="col-lg-6">
                   <div>
-                    <input name="phone" type="text" placeholder="Phone Number" />
+                    <input name="phone" type="phone" placeholder="Phone Number" />
                   </div>
                 </div>
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" name="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input name="message" type="text" class="message-box" placeholder="Message" />
               </div>
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   SEND
                 </button>
               </div>
@@ -678,7 +657,7 @@
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  srivedhaayurveda@gmail.com
                 </span>
               </a>
             </div>
@@ -699,7 +678,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3 footer_col">
-          <div class="footer_detail">
+          <!-- <div class="footer_detail">
             <h4>
               About
             </h4>
@@ -707,7 +686,7 @@
               Beatae provident nobis mollitia magnam voluptatum, unde dicta facilis minima veniam corporis laudantium
               alias tenetur eveniet illum reprehenderit fugit a delectus officiis blanditiis ea.
             </p>
-          </div>
+          </div> -->
         </div>
         <div class="col-md-6 col-lg-2 mx-auto footer_col">
           <div class="footer_link_box">
@@ -723,9 +702,6 @@
               </a>
               <a class="" href="departments.html">
                 Departments
-              </a>
-              <a class="" href="doctors.html">
-                Doctors
               </a>
               <a class="" href="contact.html">
                 Contact Us
@@ -748,9 +724,7 @@
       <div class="footer-info">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates<br><br></a>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/">ThemeWagon</a>
+          <a href="https://html.design/">SrivedhaAyurveda<br><br></a>
         </p>
 
       </div>
