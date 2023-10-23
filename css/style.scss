@@ -414,6 +414,16 @@ a:focus {
     img {
       width: 100%;
       border-radius: 15px;
+      max-height: 425px;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    @media screen and (max-width: 574px) {
+      img {
+        /* Image height for screens below 574px */
+        height: 290px;
+      }
     }
   }
 
